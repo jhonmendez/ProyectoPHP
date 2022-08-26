@@ -1,8 +1,8 @@
 <?php 
 	
-	$numeroUno = 28;
-	$numeroDos = 22;
-	$numeroTres = 24;
+	$numeroUno = intval($_GET['numeroUno']);
+	$numeroDos = intval($_GET['numeroDos']);
+	$numeroTres = intval($_GET['numeroTres']);
 
 	if ($numeroUno >= $numeroDos && $numeroUno >= $numeroTres) {
 
