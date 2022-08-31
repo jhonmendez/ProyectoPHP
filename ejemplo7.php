@@ -1,6 +1,6 @@
 <?php 
 
-    $arraysNumeros = array(45,32,47,2448);
+    $arraysNumeros = $_GET['numerosArray'];
 
     $tamañoLoopUno = count($arraysNumeros) - 1;
 
