@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora CECAR</title>
+</head>
+<body>
+    <h1>Calculadora CECAR</h1>
+    
+    <form action="vistacalculadora.php" method="post">
+        Operador Uno:
+        <input type="number" name="operadorUno" required autofocus><br>
+
+        Operador Dos:
+        <input type="number" name="operadorDos" required><br>
+
+        <select name="operacion" >
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br>
+
+        <input type="submit" value="Calcular">
+        <input type="reset" value="Nuevo">
+    </form>
+</body>
+</html>
