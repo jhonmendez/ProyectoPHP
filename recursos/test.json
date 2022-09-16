@@ -1,0 +1,10 @@
+{
+
+   "fechanacimiento":"1980-01-02",
+   "fechacontratacion":"2003-01-01",
+   "nombres" : {
+      "primer" : "Jhon",
+      "segundo" : "Mendez" 
+     }
+
+}
